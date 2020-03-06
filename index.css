@@ -1,0 +1,264 @@
+  .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid yellow;
+      border-left: 60px solid yellow;
+      border-bottom: 60px solid yellow;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+    }
+
+    #dot {
+       width: 50px;
+      height: 50px;
+      background: white;
+      border-radius: 50%
+
+
+    }
+
+    body{
+      background-color: black;
+    }
+
+   .body{
+      display: flex;
+      align-items: center;
+      margin-top:250px;
+/*      justify-content: space-around;*/
+   }
+
+   .dots{
+      display: flex;
+      justify-content: space-between;
+/*      margin-top: 25px;*/
+
+   }
+
+
+
+   .pacman:hover { 
+   
+   border-top: 60px solid red;
+      border-left: 60px solid red;
+      border-bottom: 60px solid red;
+
+    }
+
+   @media only screen and ( max-width: 1200px ){
+
+     .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid yellow;
+      border-left: 60px solid yellow;
+      border-bottom: 60px solid yellow;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+
+
+    }
+
+    #dot {
+       width: 50px;
+      height: 50px;
+      background: white;
+      border-radius: 50%
+
+
+    }
+
+    body{
+      background-color: black;
+    }
+
+   .body{
+      display: flex;
+      align-items: center;
+      margin-top:250px;
+/*      justify-content: space-around;*/
+   }
+
+   .dots{
+      display: flex;
+      justify-content: space-between;
+      margin-left: -100px;
+
+/*      margin-top: 25px;*/
+
+   }
+
+   .dot1{
+    display: none;
+   }
+
+   #pacman{
+    margin-left: 50px;
+    z-index: 1;
+   }
+
+   .pacman:hover { 
+   
+   border-top: 60px solid #09E7E6;
+      border-left: 60px solid #09E7E6;
+      border-bottom: 60px solid #09E7E6;
+
+    }
+
+
+   }
+
+
+    @media only screen and ( max-width: 1000px ){
+
+     .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid yellow;
+      border-left: 60px solid yellow;
+      border-bottom: 60px solid yellow;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+    }
+
+    #dot {
+       width: 50px;
+      height: 50px;
+      background: white;
+      border-radius: 50%
+
+
+    }
+
+    body{
+      background-color: black;
+    }
+
+   .body{
+      display: flex;
+      align-items: center;
+      margin-top:250px;
+/*      justify-content: space-around;*/
+   }
+
+   .dots{
+      display: flex;
+      justify-content: space-between;
+   /*   z-index: -1;*/
+/*      margin-top: 25px;*/
+
+   }
+
+   .dot1{
+    display: none;
+   }
+
+   .dot2{
+    display: none;
+   }
+
+   #pacman{
+    margin-left: 150px;
+   }
+
+
+
+   .pacman:hover { 
+   
+   border-top: 60px solid pink;
+      border-left: 60px solid pink;
+      border-bottom: 60px solid pink;
+
+    }
+
+
+
+
+
+   }
+
+    @media only screen and ( max-width: 600px ){
+
+     .pacman {
+      width: 0px;
+      height: 0px;
+      border-right: 60px solid transparent;
+      border-top: 60px solid yellow;
+      border-left: 60px solid yellow;
+      border-bottom: 60px solid yellow;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+    }
+
+    #dot {
+       width: 50px;
+      height: 50px;
+      background: white;
+      border-radius: 50%
+
+
+    }
+
+    body{
+      background-color: black;
+    }
+
+   .body{
+      display: flex;
+      align-items: center;
+      margin-top:250px;
+/*      justify-content: space-around;*/
+   }
+
+   .dots{
+      display: flex;
+      justify-content: space-between;
+   /*   z-index: -1;*/
+/*      margin-top: 25px;*/
+
+   }
+
+   .dot1{
+    display: none;
+   }
+
+   .dot2{
+    display: none;
+   }
+
+   .dot3{
+    display: none;
+   }
+
+   #pacman{
+    margin-left: 250px;
+   }
+
+
+
+.pacman:hover { 
+   
+   border-top: 60px solid orange;
+      border-left: 60px solid orange;
+      border-bottom: 60px solid orange;
+
+    }
+
+
+
+   }
+
+
+
+  

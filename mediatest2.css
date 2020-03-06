@@ -1,0 +1,199 @@
+@media only screen and ( max-width: 1440px ){
+
+
+	img{
+height: 20vh;
+}
+
+.pics{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	color: green;
+	text-shadow: 2px 2px black;
+
+
+}
+
+.text{
+	margin-top: 100px;
+}
+
+body{
+	font-size: 20px;
+	font-family: "helvetica", san-serif; 
+}
+
+#pics{
+	display: none;
+}
+
+}
+
+ @media only screen and ( max-width: 1200px ){
+
+ 	img{
+height: 150%;
+}
+
+.pics{
+	display: flex;
+	justify-content: space-between;
+/*	margin-top: 100px;*/
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+
+}
+
+.text{
+/*	margin-top: 100px;*/
+}
+
+body{
+	font-size: 20px;
+	font-family: "helvetica", san-serif; 
+}
+
+.one {
+	display: none;
+}
+
+.sad, .confused, .scared{
+	display: none;
+}
+
+}
+
+ @media only screen and ( max-width: 1000px ){
+
+ 	img{
+height: 150%;
+}
+
+.pics{
+	display: flex;
+	justify-content: space-between;
+/*	margin-top: 100px;*/
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+
+}
+
+.text{
+/*	margin-top: 100px;*/
+}
+
+body{
+	font-size: 20px;
+	font-family: "helvetica", san-serif; 
+}
+
+.one {
+	display: none;
+}
+
+.happy, .sad, .scared{
+	display: none;
+}
+
+.confused{
+	display: inline;
+}
+
+}
+
+
+ @media only screen and ( max-width: 800px ){
+
+ 	img{
+height: 200%;
+}
+
+.pics{
+	display: flex;
+	justify-content: space-between;
+/*	margin-top: 100px;*/
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+
+}
+
+.text{
+/*	margin-top: 100px;*/
+}
+
+body{
+	font-size: 20px;
+	font-family: "helvetica", san-serif; 
+}
+
+.one {
+	display: none;
+}
+
+.happy, .confused, .scared{
+	display: none;
+}
+
+.sad{
+	display: inline;
+}
+
+}
+
+
+ @media only screen and ( max-width: 600px ){
+
+ 	img{
+height: 50%;
+}
+
+.pics{
+	display: flex;
+	justify-content: space-between;
+/*	margin-top: 100px;*/
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+
+}
+
+.text{
+/*	margin-top: 100px;*/
+}
+
+body{
+	font-size: 20px;
+	font-family: "helvetica", san-serif; 
+}
+
+.one {
+	display: none;
+}
+
+.happy, .sad, .confused{
+	display: none;
+}
+
+.scared{
+	display: inline;
+}
+
+}
